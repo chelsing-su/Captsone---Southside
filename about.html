@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.js"></script>
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+
+    <title>About SCC</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark d-flex" style="background-color:#7E0B2A !important;">
+        <!-- Logo -->
+        
+        <a>
+            <img src="images/scc1logo3.jpg" class="d-none d-lg-block" style="max-height:90px; max-width:90px;">
+        </a>
+
+        <div class="d-lg-none d-block" style="color:white; font-size: 1.3rem;">
+            Southside Community Coalition
+        </div>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse d-flex align-items-left justify-content-between " id="collapsibleNavbar">
+            <ul class="navbar-nav text-left d-flex justify-content-center">
+                <li class="nav-item header-item pl-lg-1">
+                    <a class="nav-link header-link" style="color:white;" href="index.html">Home</a>
+                </li>
+                <li class="nav-item header-item pl-lg-1">
+                    <a class="nav-link header-link" style="color:white;" href="about.html">About SCC</a>
+                </li>
+                <li class="nav-item header-item pl-lg-1">
+                    <a class="nav-link header-link" style="color:white;" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item header-item pl-lg-1">
+                    <a class="nav-link header-link" style="color:white;" href="Collaborators.html">Collaborators</a>
+                </li>
+
+                <li class="nav-item header-item pl-lg-1">
+                    <a class="nav-link header-link" style="color:white;">Calender</a>
+                </li>
+                <li class="nav-item header-item pl-lg-1">
+                    <a class="nav-link header-link" style="color:white;" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item header-item pl-lg-1 pr-3 d-block d-lg-none">
+                    <a class="nav-link header-link" style="color:white;" href="donate.html">Donate</a>
+                </li>                       
+            </ul>
+            <div class="d-lg-block pr-4 d-none">
+                <a class="nav-link header-link" style="color:white;" href="donate.html">Donate</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row about">
+            <div class="content bg-light flex-column col-12">
+                <h2 class="pb-5" style="font-family: 'Open Sans', sans-serif;">About SCC</h2>
+                <nav>
+                    <!-- About Tabs -->
+                    <div class="nav nav-tabs d-flex justify-content-around" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link about-tab active" id="nav-mission-tab" data-toggle="tab" href="#mission" role="tab" aria-controls="nav-home" aria-selected="true">Mission Statement</a>
+                        <a class="nav-item nav-link about-tab" id="nav-history-tab" data-toggle="tab" href="#history" role="tab" aria-controls="nav-profile" aria-selected="false">Our History</a>
+                        <a class="nav-item nav-link about-tab" id="nav-board-tab" data-toggle="tab" href="#board" role="tab" aria-controls="nav-contact" aria-selected="false">Board of Directors</a>
+                        <a class="nav-item nav-link about-tab" id="nav-committees-tab" data-toggle="tab" href="#committees" role="tab" aria-controls="nav-contact" aria-selected="false">Committees</a>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active pt-4 d-flex flex-wrap" id="mission" role="tabpanel" aria-labelledby="nav-mission-tab">
+                        <div class="about-tab-text col-12 col-md-6">
+                            <h4 class="text-center pb-3">Mission Statement</h4>
+                            <p>The goal of the Southside Community Coalition is to restore, revitalize, and rejuvenate the Syracuse’s South Side community through a partnership with community residents, agencies, organizations, and Syracuse University. South Side community residents will work with Syracuse University faculty and staff to create programs that have sustainable and long-term benefits for the South Side. The partnership will develop programs that address economic, educational, and cultural opportunities for the Southside community.
+                            </p>
+                        </div>
+                        <div class="about-tab-img col-12 col-md-6">
+                            <img src="images/Art In Motion.JPG" alt="Art in Motion" style="width: 100%; height: auto;">
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane fade" id="history" role="tabpanel" aria-labelledby="nav-history-tab">
+                        <h4>Our History</h4>
+                    </div>
+
+                    <div class="tab-pane fade" id="board" role="tabpanel" aria-labelledby="nav-board-tab">
+                        <h4>Board of Directors</h4>
+                    </div>
+
+                    <div class="tab-pane fade" id="committees" role="tabpanel" aria-labelledby="nav-committees-tab">
+                        <h4>Committees</h4>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>
