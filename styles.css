@@ -1,0 +1,109 @@
+/* Color Scheme */
+
+
+/* Fonts */
+
+body {
+    background-color: #000;
+}
+
+nav{
+  padding: 0px !important;
+}
+
+nav a img{
+  padding-right: 0px;
+}
+
+
+.about{
+    background-color: lightgray
+}
+
+.welcome img{
+    border-radius: 50%;
+}
+
+.hero span{
+    font-size: 6vw;
+    color: #7E0B2A;
+    font-weight: 700;
+    font-style: oblique;
+    text-align: center;
+}
+
+.hero{
+    border: none;
+}
+
+@media (min-width: 992px) {
+    .nav-link {
+        position: relative;
+    }
+    
+    .nav-link:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 5px;
+        width: 100%;
+        height: 2px;
+        background-color: #D4B74A;
+        transition: .5s;
+        transform: scaleX(0);
+        transform-origin: center center;
+        max-width: 100px;
+    }
+    
+    .nav-link:hover:before {
+        transform: scaleX(1);
+    }
+    
+    .nav-link:hover {
+        transform: scale(1.2);
+        transition: .5s;
+        color: #D4B74A;
+    }
+
+    .nav-item {
+        padding-left: 40px !important;
+    }
+
+    
+
+}
+
+@media (max-width: 991px) {
+    .collapse a{
+        display: block;
+        transition: .5s;
+    }
+
+    .collapse a:hover{
+        transform: translateX(12px);
+    }
+.hero span{
+  text-align: center;
+  font-size: 6vw;
+  padding: 20px;
+  color: #70132C;
+  font-weight: 700;
+}
+
+.about{
+  background-color:lightgray;
+}
+
+.welcome img{
+  border-radius: 50%;
+}
+
+.welcome h4{
+  color:#fff;
+}
+
+.footer{
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */

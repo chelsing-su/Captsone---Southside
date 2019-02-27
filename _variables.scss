@@ -1,0 +1,48 @@
+/* Color Scheme */
+$primary: #7E0B2A;
+$secondary: #250000;
+$trimColor: #EDDE4F;
+
+$trimBorder: 2px solid $trimColor;
+
+/* Fonts */
+$h4Font: 'Open Sans', sans-serif;
+$h2Font: 'Noto Sans', sans-serif;
+
+body{
+    background-color: $secondary;
+}
+
+nav{
+    padding: 0px !important;
+    a img{
+        padding-right: 0px;
+    }
+    .header-item {
+        padding-left: 45px !important;
+    }
+    .header-link {
+        position: relative;
+    }
+    .header-link:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 5px;
+        width: 100%;
+        height: 1px;
+        background-color: #D4B74A;
+        transition: .3s;
+        transform: scaleX(0);
+        transform-origin: center center;
+    }
+    .header-link:hover:before {
+        transform: scaleX(1);
+    }
+    .header-link:hover {
+        transform: scale(1.2);
+        transition: .5s;
+        color: #D4B74A;
+    }
+}

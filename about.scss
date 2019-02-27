@@ -1,0 +1,28 @@
+@import 'variables.scss';
+
+
+.container{
+    background-color: $primary;
+    .about{
+        
+        padding: 20px;
+        }
+        .content{
+            display: flex;
+            padding: 20px;
+            box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+            h2{
+                text-align: center;
+                font-family: $h4Font;
+            }
+            .about-tab{
+                color: #000;
+            }
+            
+        }
+    }
+
+
+
+
+

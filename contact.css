@@ -1,0 +1,55 @@
+/* Color Scheme */
+/* Fonts */
+body {
+  background-color: #250000;
+}
+
+nav {
+  padding: 0px !important;
+}
+nav a img {
+  padding-right: 0px;
+}
+nav .header-item {
+  padding-left: 45px !important;
+}
+nav .header-link {
+  position: relative;
+}
+nav .header-link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  height: 1px;
+  background-color: #D4B74A;
+  transition: 0.3s;
+  transform: scaleX(0);
+  transform-origin: center center;
+}
+nav .header-link:hover:before {
+  transform: scaleX(1);
+}
+nav .header-link:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+  color: #D4B74A;
+}
+
+.container {
+  background-color: #7E0B2A;
+}
+.container .contact-info {
+  padding: 20px;
+}
+.container .contact-info .content {
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+}
+.container .contact-info .content .header {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+/*# sourceMappingURL=contact.css.map */

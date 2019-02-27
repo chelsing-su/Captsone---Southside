@@ -1,0 +1,16 @@
+@import 'variables.scss';
+
+.container{
+    background-color: $primary;
+    .contact-info{
+        padding: 20px;
+        .content{
+            
+            box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+            .header{
+                font-family: $h4Font;
+                text-align: center;
+            }
+        }
+    }
+}
