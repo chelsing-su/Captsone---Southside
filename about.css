@@ -60,11 +60,11 @@ nav a img {
     padding-left: 45px !important;
   }
   
-  .nav-link {
+  .navbar-nav .nav-link {
     position: relative;
   }
   
-  .nav-link:before {
+  .navbar-nav .nav-link:before {
     content: "";
     display: block;
     position: absolute;
@@ -78,11 +78,11 @@ nav a img {
     transform-origin: center center;
   }
   
-  .nav-link:hover:before {
+  .navbar-nav .nav-link:hover:before {
     transform: scaleX(1);
   }
   
-  .nav-link:hover {
+  .navbar-nav .nav-link:hover {
     transform: scale(1.2);
     transition: .5s;
     color: #D4B74A;
