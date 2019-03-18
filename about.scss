@@ -1,4 +1,5 @@
-@import 'variables.scss';
+@import 'variables';
+
 
 
 .container{
@@ -16,7 +17,24 @@
                 font-family: $h4Font;
             }
             .about-tab{
-                color: #000;
+                font-size: 1.2rem;
+                font-style: italic;
+                a{
+                    color: #000;
+                }
+            }
+            .about-tab-img{
+                height: auto;
+                width: 100%;
+            }
+            .tab-content{
+                .tab-pane{
+                    .director-title{
+                        font-family: $h4Font;
+                        font-size: 1.25rem;
+                        font-weight: 700;
+                    }
+                }
             }
             
         }
