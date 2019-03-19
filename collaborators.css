@@ -13,9 +13,6 @@ nav a img {
 }
 
 
-  
-/* my code*/
-
 .container {
   background-color: #7E0B2A;
 }
@@ -35,19 +32,13 @@ a:link{
 }
 
 a:hover {
-  color: #7E0B2A;
+  color: #D4B74A;
 }
 
 a:visited:hover{
-  color: #7e0b2a
+  color: #D4B74A
 }
 
-
-
-
-/* ----- */
-
-  
   .hero span{
     text-align: center;
     font-size: 6vw;
