@@ -18,27 +18,6 @@ nav .header-link {
   font-family: "Nanum Gothic", sans-serif;
   font-size: 1rem;
 }
-nav .header-link:before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 5px;
-  width: 100%;
-  height: 1px;
-  background-color: #D4B74A;
-  transition: 0.3s;
-  transform: scaleX(0);
-  transform-origin: center center;
-}
-nav .header-link:hover:before {
-  transform: scaleX(1);
-}
-nav .header-link:hover {
-  transform: scale(1.2);
-  transition: 0.5s;
-  color: #D4B74A;
-}
 
 .navbar {
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
@@ -78,6 +57,48 @@ nav .header-link:hover {
   font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  /*----------*/
+  .header-link {
+    position: relative;
+  }
+
+  .header-link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    height: 1px;
+    background-color: #D4B74A;
+    transition: 0.3s;
+    transform: scaleX(0);
+    transform-origin: center center;
+  }
+
+  .header-link:hover:before {
+    transform: scaleX(1);
+  }
+
+  .header-link:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    color: #D4B74A;
+  }
+}
+@media (max-width: 991px) {
+  .collapse a {
+    display: block;
+    transition: 0.5s;
+  }
+
+  .collapse a:hover {
+    transform: translateX(12px);
+    background-color: #C23053;
+  }
 }
 
 /*# sourceMappingURL=about.css.map */
