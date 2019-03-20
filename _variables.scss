@@ -27,25 +27,4 @@ nav{
         font-family: $navFont;
         font-size: 1rem;
     }
-    .header-link:before {
-        content: "";
-        display: block;
-        position: absolute;
-        left: 0;
-        bottom: 5px;
-        width: 100%;
-        height: 1px;
-        background-color: #D4B74A;
-        transition: .3s;
-        transform: scaleX(0);
-        transform-origin: center center;
-    }
-    .header-link:hover:before {
-        transform: scaleX(1);
-    }
-    .header-link:hover {
-        transform: scale(1.2);
-        transition: .5s;
-        color: #D4B74A;
-    }
 }
