@@ -26,6 +26,14 @@ nav a img {
   text-align: center;
 }
 
+.footer{
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 /*# sourceMappingURL=contact.css.map */
 
 @media (min-width: 992px) {
