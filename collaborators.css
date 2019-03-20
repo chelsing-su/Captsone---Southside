@@ -85,9 +85,11 @@ a:visited:hover{
   }
 
 
-  .footer{
-    text-align: center;
-  }
+.footer{
+  text-align: center;
+}
+
+
   @media (min-width: 992px) {
 
     
