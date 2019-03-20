@@ -1,6 +1,6 @@
 /* Color Scheme */
-$primary: #7E0B2A;
-$secondary: #250000;
+$primary: #C23053;
+$secondary: #FEF9E7;
 $trimColor: #EDDE4F;
 
 $trimBorder: 2px solid $trimColor;
@@ -8,6 +8,7 @@ $trimBorder: 2px solid $trimColor;
 /* Fonts */
 $h4Font: 'Open Sans', sans-serif;
 $h2Font: 'Noto Sans', sans-serif;
+$navFont: 'Nanum Gothic', sans-serif;
 
 body{
     background-color: $secondary;
@@ -19,10 +20,12 @@ nav{
         padding-right: 0px;
     }
     .header-item {
-        padding-left: 45px !important;
+        padding: 0px 20px;
     }
     .header-link {
         position: relative;
+        font-family: $navFont;
+        font-size: 1rem;
     }
     .header-link:before {
         content: "";

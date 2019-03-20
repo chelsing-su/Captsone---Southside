@@ -1,11 +1,16 @@
 @import 'variables';
 
 
-
+.navbar{
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+    background-color: $primary !important;
+    .header-title{
+        font-family: $navFont;
+    }
+}
 .container{
     background-color: $primary;
     .about{
-        
         padding: 20px;
         }
         .content{
@@ -23,6 +28,7 @@
                     color: #000;
                 }
             }
+            
             .about-tab-img{
                 height: auto;
                 width: 100%;
