@@ -1,7 +1,7 @@
 /* Color Scheme */
 /* Fonts */
 body {
-  background-color: #250000;
+  background-color: #FEF9E7;
   }
   
 nav {
@@ -14,7 +14,7 @@ nav a img {
 
 
 .container {
-  background-color: #7E0B2A;
+  background-color: #C23053;
 }
 
 .container .collab{
@@ -25,6 +25,7 @@ nav a img {
   display: flex;
   padding: 20px;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 a:link{
@@ -96,11 +97,12 @@ a:visited:hover{
     /*----------*/
     
     .nav-item {
-      padding-left: 45px !important;
+      padding: 0px 20px !important;
     }
     
     .nav-link {
       position: relative;
+      font-family: 'Nanum Gothic', sans-serif;
     }
     
     .nav-link:before {
@@ -139,7 +141,8 @@ a:visited:hover{
     }
 
     .nav-link{
-      margin-left:30px;
+      margin-left:20px;
+      font-family: 'Nanum Gothic', sans-serif;
     }
 
 }

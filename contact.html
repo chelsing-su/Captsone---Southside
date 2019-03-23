@@ -15,18 +15,19 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans|Open+Sans" rel="stylesheet">
 
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark d-flex" style="background-color:#7E0B2A !important;">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark d-flex">
         <!-- Logo -->
         
         <a>
-            <img src="images/scc1logo3.jpg" class="d-none d-lg-block" style="max-height:90px; max-width:90px;">
+            <img src="images/scc1logo3.jpg" class="d-none d-lg-block pr-3" style="max-height:90px; max-width:90px;">
         </a>
 
-        <div class="d-lg-none d-block my-3 ml-3 pl-5" style="color:white; font-size: 1.3rem;">
+        <div class="header-title d-lg-none d-block mr-auto m-3" style="color:white; font-size: 1.3rem;">
             Southside Community Coalition
         </div>
         <!-- Toggler/collapsibe Button -->
@@ -37,57 +38,59 @@
         <!-- Navbar links -->
         <div class="collapse navbar-collapse align-items-left justify-content-between pl-md-0" id="collapsibleNavbar">
             <ul class="navbar-nav text-left">
-                <li class="nav-item header-item pl-lg-1">
+                <li class="nav-item header-item">
                     <a class="nav-link header-link" style="color:white;" href="index.html">Home</a>
                 </li>
-                <li class="nav-item header-item pl-lg-1">
+                <li class="nav-item header-item">
                     <a class="nav-link header-link" style="color:white;" href="about.html">About SCC</a>
                 </li>
-                <li class="nav-item header-item pl-lg-1">
+                <li class="nav-item header-item">
                     <a class="nav-link header-link" style="color:white;" href="projects.html">Projects</a>
                 </li>
-                <li class="nav-item header-item pl-lg-1">
+                <li class="nav-item header-item">
                     <a class="nav-link header-link" style="color:white;" href="collaborators.html">Collaborators</a>
                 </li>
-
-                <li class="nav-item header-item pl-lg-1">
-                    <a class="nav-link header-link" style="color:white;" href="#">Calender</a>
-                </li>
-                <li class="nav-item header-item pl-lg-1">
+                <li class="nav-item header-item">
                     <a class="nav-link header-link" style="color:white;" href="contact.html">Contact Us</a>
                 </li>
-                <li class="nav-item header-item pl-lg-1 pr-3 d-block d-lg-none">
-                    <a class="nav-link header-link" style="color:white;" target="_blank" href="https://www.paypal.com/donate/?token=qNllHCvM3kyRRfWQ9qxTp-y62iXV-TwSGjBA1OIdDQN3V1DdvOrUkjf9v7Vxjur7ixQksG&country.x=US&locale.x=US">Donate</a>
+                <li class="nav-item header-item pr-3 d-block d-lg-none">
+                    <a class="nav-link header-link" style="color:white; font-size: 1.5rem;" target="_blank" href="https://www.paypal.com/donate/?token=qNllHCvM3kyRRfWQ9qxTp-y62iXV-TwSGjBA1OIdDQN3V1DdvOrUkjf9v7Vxjur7ixQksG&country.x=US&locale.x=US">Donate</a>
                 </li>                       
             </ul>
-            <div class="d-lg-block pr-4 d-none">
-                <a class="nav-link header-link" style="color:white;" target="_blank" href="https://www.paypal.com/donate/?token=qNllHCvM3kyRRfWQ9qxTp-y62iXV-TwSGjBA1OIdDQN3V1DdvOrUkjf9v7Vxjur7ixQksG&country.x=US&locale.x=US">Donate</a>
+            <div class="d-lg-block pr-3 d-none">
+                <a class="nav-link header-link" style="color:white; font-size: 1.5rem;" target="_blank" href="https://www.paypal.com/donate/?token=qNllHCvM3kyRRfWQ9qxTp-y62iXV-TwSGjBA1OIdDQN3V1DdvOrUkjf9v7Vxjur7ixQksG&country.x=US&locale.x=US">Donate</a>
             </div>
         </div>
     </nav>
 
     <div class="container mt-4">
-        <div class="row contact-info">
-            <div class="content bg-light col-12 d-flex flex-column">
+        <div class="row contact-info justify-content-center">
+            <div class="content bg-light col-12 d-flex flex-column flex-wrap">
                 <h2 class="header p-4">Contact SCC</h2>
-                <div class="info d-flex justify-content-around">
-                    <div class="phone pb-4 d-flex flex-column">
-                        <h4>Phone Number</h4>
-                        <span>(315)-314-6303</span>
+                <div class="info d-flex flex-wrap">
+                    <div class="numbers col-12 col-md-6 d-flex flex-column align-items-center">
+                        <div class="phone pb-4 d-flex flex-column">
+                            <h4>Phone Number</h4>
+                            <span>(315)-314-6303</span>
+                        </div>
+                        <div class="fax pb-4 d-flex flex-column">
+                            <h4>Fax Number</h4>
+                            <span>(315)-314-6305</span>
+                        </div>
+                        <div class="address pb-4 d-flex flex-column">
+                            <h4>Street Address</h4>
+                            <span>2331 S. Salina St.</span>
+                            <span>Syracuse, NY 13205</span>
+                        </div>
                     </div>
-                    <div class="fax pb-4 d-flex flex-column">
-                        <h4>Fax Number</h4>
-                        <span>(315)-314-6305</span>
-                    </div>
-                    <div class="address pb-4 d-flex flex-column">
-                        <h4>Street Address</h4>
-                        <span>2331 S. Salina St.</span>
-                        <span>Syracuse, NY 13205</span>
+                    <div class="col-12 col-md-6 calendar d-flex justify-content-center">
+                        <iframe class="d-flex" src="https://calendar.google.com/calendar/embed?showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=syrsouthside%40gmail.com&amp;color=%23691426&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23B1365F&amp;ctz=America%2FNew_York" style="border-width:0" width="auto" height="300px" frameborder="0" scrolling="no"></iframe>
                     </div>
                 </div>
-                <div class="form-group">
+                
+                <div class="form-group pt-3 d-flex flex-wrap">
                     <label class="big-span">Email Inquiry:</label>
-                    <textarea class="contact-box form-control" rows="5" placeholder="Enter your message here"></textarea>
+                    <textarea class="contact-box form-control" rows="5" placeholder="Reach out and learn more about what we do!"></textarea>
                 </div>
             </div>
         </div>
