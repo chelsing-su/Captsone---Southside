@@ -25,14 +25,11 @@ nav a img {
   display: flex;
   padding: 20px;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
-  font-family: 'Nanum Gothic', sans-serif;
 }
 
 
 
 .carousel-item a{
-    text-decoration: underline;
-    text-decoration-skip-ink: auto;
     color:#FEF9E7;
 }
 
@@ -41,7 +38,7 @@ a:hover {
 }
 
 a:visited:hover{
-  color: #FEF9E7;
+  color: #d4b74a;
 }
 
   .hero span{
@@ -131,6 +128,10 @@ a:visited:hover{
       transform: scale(1.2);
       transition: .5s;
       color: #D4B74A;
+    }
+
+    footer{
+      padding-top: 40px !important;
     }
 }
 
