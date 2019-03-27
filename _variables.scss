@@ -28,3 +28,39 @@ nav{
         font-size: 1rem;
     }
 }
+
+.container {
+	/*Default padding is 15px*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*Target all column classes*/
+[class^="col-"] {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+@media (min-width: 576px) {
+    .container{
+        max-width: 767px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 991px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container{
+        max-width: 1199px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1350px;
+    }
+}

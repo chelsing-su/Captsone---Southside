@@ -5,24 +5,56 @@
     background-color: $primary !important;
     .header-title{
         font-family: $navFont;
+    }
+    .header-link{
+        font-size: 1rem;
     } 
+}
+
+.projects-hero{
+    border: none !important;
+    .hero-overlay{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        font-family: $navFont;
+        h2{
+            font-size: 2rem;
+            letter-spacing: 3px;
+            font-family: $h2Font;
+        }
+        .reservation-button{
+            color: white;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+            border: 2px solid #000;
+        }
+        .reservation-button:hover{
+            background-color: #000;
+            text-decoration: none;
+        }
+        span{
+            font-style: italic;
+        }
+    }
+}
+.projects-intro{
+    #more {display: none;}
+    font-family: $h4Font;
 }
 
 .container{
     background-color: $primary;
     .projects-overview{
         padding: 20px 20px 0px 20px;
-        position: relative;
         .overview-content{
             h2{
-                font-family: $h4Font;
+                font-family: $navFont;
             }
         }
     }
     .projects{
         padding: 0px 20px 20px 20px;
-        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+        .project-modal-button{
         
+        }
     }
 }
 
@@ -75,6 +107,8 @@
         background-color: $primary;
     }
     
-
+    .projects-hero h2{
+        font-size: 1.5rem !important;
+    }
 }
 

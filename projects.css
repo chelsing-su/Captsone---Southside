@@ -16,9 +16,41 @@ nav .header-item {
 nav .header-link {
   position: relative;
   font-family: "Nanum Gothic", sans-serif;
-  font-size: 0.4rem;
+  font-size: 1rem;
 }
 
+.container {
+  /*Default padding is 15px*/
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*Target all column classes*/
+[class^=col-] {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 767px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 991px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 1199px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1350px;
+  }
+}
 .navbar {
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
   background-color: #C23053 !important;
@@ -26,22 +58,54 @@ nav .header-link {
 .navbar .header-title {
   font-family: "Nanum Gothic", sans-serif;
 }
+.navbar .header-link {
+  font-size: 1rem;
+}
+
+.projects-hero {
+  border: none !important;
+}
+.projects-hero .hero-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  font-family: "Nanum Gothic", sans-serif;
+}
+.projects-hero .hero-overlay h2 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  font-family: "Noto Sans", sans-serif;
+}
+.projects-hero .hero-overlay .reservation-button {
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border: 2px solid #000;
+}
+.projects-hero .hero-overlay .reservation-button:hover {
+  background-color: #000;
+  text-decoration: none;
+}
+.projects-hero .hero-overlay span {
+  font-style: italic;
+}
+
+.projects-intro {
+  font-family: "Open Sans", sans-serif;
+}
+.projects-intro #more {
+  display: none;
+}
 
 .container {
   background-color: #C23053;
 }
 .container .projects-overview {
   padding: 20px 20px 0px 20px;
-  position: relative;
 }
 .container .projects-overview .overview-content h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 .container .projects {
   padding: 0px 20px 20px 20px;
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
 }
-
 @media (min-width: 992px) {
   /*----------*/
   .header-link {
@@ -81,6 +145,10 @@ nav .header-link {
   .collapse a:hover {
     transform: translateX(12px);
     background-color: #C23053;
+  }
+
+  .projects-hero h2 {
+    font-size: 1.5rem !important;
   }
 }
 
