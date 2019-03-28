@@ -7,12 +7,14 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.js"></script>
     
 
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Noto+Sans|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="projects.css">
+    <script src="projects.js"></script>
     <title>SCC Projects</title>
 </head>
 <body>
@@ -61,28 +63,48 @@
         </div>
     </nav>
 
+    <div class="projects-hero card">
+        <img src="images/projectsHero.jpg" style="height: auto; width: 100%;">
+        <div class="card-img-overlay hero-overlay d-flex flex-column justify-content-center align-items-center">
+            <h2 class="text-light pb-2 pb-md-4">
+                PROJECTS
+            </h2>
+            <span class="text-white mb-2">Come work with us!</span>
+            <a class="reservation-button button p-2 px-5 mb-2 text-center" href="images/SCC Reservation Form.pdf" target="_blank">Reservation Form</a>
+        </div>
+    </div>
+
+    <div class="projects-intro d-flex justify-content-center flex-column align-items-center">
+        <div class="col-10 col-md-8 col-lg-7 text-center pt-3 pb-0 mb-0">
+            <p style="color: #626567;">The Southside Community Coalition is working on several projects in the Syracuse Community. They all have sustainable and long term benefits
+                <span id="dots">...</span>
+                <span id="more">for the community. These projects are being worked on by community residents who have taken initiative to make sure that their community has a brighter future. Please take a look at all the projects that we are currently involved in. We are always looking for help so feel free to get involved and contact us.</span>
+                <button class="btn btn-link" onclick="myFunction()" id="myBtn" style="color: #000;">Read more</button>
+            </p>
+        </div>
+        <div class="arrow-down d-flex flex-column align-items-center">
+            <span class="pb-2" style="font-size: 1.1rem;">(See past and current projects below)</span>
+            <i class="fas fa-arrow-down fa-3x"></i>
+        </div>
+    </div>
+
+
     <div class="container mt-4">
         <div class="row projects-overview">
-            <div class="overview-content col-12 bg-light pt-4 pb-3 d-flex flex-wrap">
-                <div class="image-holder col-12 col-lg-4 pb-2 d-flex align-items-center">
-                    <img src="images/projectsimg.jpg" alt="Garden Work" style="width: 100%; height: auto;">
-                </div>
-                <div class="d-flex flex-column align-items-center align-items-lg-start col-12 col-lg-8">
-                    <h2>Projects Overview</h2>
-                    <p>The Southside Community Coalition is working on several projects in the Syracuse Community. These projects serve the purpose of restoring, revitalizing, and rejuvenating the Syracuse's south side community. They all have sustainable and long term benefits for the community. These projects are being worked on by community residents who have taken initiative to make sure that their community has a brighter future. Please take a look at all the projects that we are currently involved in. We are always looking for help so feel free to get involved and contact us.</p>
+            <div class="overview-content col-12 bg-light pt-4 pb-3 d-flex justify-content-center flex-wrap">
+                <div class="d-flex flex-column js align-items-center col-12 col-lg-8">
                 </div>
             </div>
         </div>
         <div class="row projects">
             <div class="projects-content bg-light col-12 text-center">
-                <p class="col-10 col-lg-6 border-top pt-3 mx-auto" style="font-style: italic; font-family: 'Nanum Gothic', sans-serif;">Take a look at some of the great work we've been able to accomplish alongside other great organizations in our community!</p>
                 <div class="d-flex flex-wrap justify-content-center">
-                    <div class="project-container col-12 col-md-6 col-lg-4">
-                        <img class="p-2" src="images/FoodCoop.jpg" alt="Food Cooperative" style="width: 100%; height: auto;">
+                    <div class="project-container px-3 pb-5 col-12 col-md-6 col-lg-4">
+                        <img src="images/FoodCoop.jpg" alt="Food Cooperative" style="width: 100%; height: auto;">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModalCenter">
+                        <a type="button" class="btn project-modal-button button" data-toggle="modal" data-target="#exampleModalCenter" style="width: 100%;">
                             Food Cooperative
-                        </button>
+                        </a>
                             
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -106,12 +128,12 @@
                         </div>
                     </div>
 
-                    <div class="project-container flex-column col-12 col-md-6 col-lg-4">
-                        <img class="p-2" src="images/filmfest.jpg" alt="Dream Girls" style="width: 100%; height: auto;">
+                    <div class="project-container pb-5 flex-column col-12 col-md-6 col-lg-4">
+                        <img src="images/filmfest.jpg" alt="Dream Girls" style="width: 100%; height: auto;">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#filmfest">
+                        <a type="button" class="btn project-modal-button button" data-toggle="modal" data-target="#filmfest" style="width: 100%;">
                             FilmFest
-                        </button>
+                        </a>
                                 
                         <!-- Modal -->
                         <div class="modal fade" id="filmfest" tabindex="-1" role="dialog" aria-labelledby="filmfestTitle" aria-hidden="true">
@@ -135,12 +157,12 @@
                         </div>
                     </div>
 
-                    <div class="project-container flex-column col-12 col-md-6 col-lg-4">
-                        <img class="p-2" src="images/artsfest.jpg" alt="Music and Arts" style="width: 100%; height: auto;">
+                    <div class="project-container px-3 pb-5 flex-column col-12 col-md-6 col-lg-4">
+                        <img src="images/artsfest.jpg" alt="Music and Arts" style="width: 100%; height: auto;">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#musicAndArts">
+                        <a type="button" class="btn project-modal-button button" data-toggle="modal" data-target="#musicAndArts" style="width: 100%;">
                             Music and Arts Festival
-                        </button>
+                        </a>
                                 
                         <!-- Modal -->
                         <div class="modal fade" id="musicAndArts" tabindex="-1" role="dialog" aria-labelledby="musicAndArtsTitle" aria-hidden="true">
@@ -163,12 +185,12 @@
                         </div>
                     </div>
 
-                    <div class="project-container flex-column col-12 col-md-6 col-lg-4">
-                        <img class="p-2" src="images/electronicsvillage.jpg" alt="Salina Electronic Village" style="width: 100%; height: auto;">
+                    <div class="project-container px-3 pb-5 flex-column col-12 col-md-6 col-lg-4">
+                        <img src="images/electronicsvillage.jpg" alt="Salina Electronic Village" style="width: 100%; height: auto;">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#electronicsVillage">
+                        <a type="button" class="btn project-modal-button button" data-toggle="modal" data-target="#electronicsVillage" style="width: 100%;">
                             Salina Electronics Village
-                        </button>
+                        </a>
                                 
                         <!-- Modal -->
                         <div class="modal fade" id="electronicsVillage" tabindex="-1" role="dialog" aria-labelledby="electronicsVillageTitle" aria-hidden="true">
@@ -191,12 +213,12 @@
                         </div>
                     </div>
 
-                    <div class="project-container flex-column col-12 col-md-6 col-lg-4">
-                        <img class="p-2" src="images/commCenter.jpg" alt="Comm Center" style="width: 100%; height: auto;">
+                    <div class="project-container px-3 pb-5 flex-column col-12 col-md-6 col-lg-4">
+                        <img src="images/commCenter.jpg" alt="Comm Center" style="width: 100%; height: auto;">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#commCenter">
+                        <a type="button" class="btn project-modal-button button" data-toggle="modal" data-target="#commCenter" style="width: 100%;">
                             South Side Communication Center
-                        </button>
+                        </a>
                                 
                         <!-- Modal -->
                         <div class="modal fade" id="commCenter" tabindex="-1" role="dialog" aria-labelledby="commCenterTitle" aria-hidden="true">
@@ -217,19 +239,22 @@
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Reservation Form</button>
+                                <a class="btn btn-outline-primary" href="images/SCC Reservation Form.pdf" target="_blank" role="button">Reservation Form</a>
                             </div>
                             </div>
                         </div>
                         </div>
                     </div>
 
-                    <div class="project-container flex-column col-12 col-md-6 col-lg-4">
-                        <img class="p-2" src="images/thestand.jpg" alt="The Stand" style="width: 100%; height: auto;">
+                    <div class="project-container px-3 pb-5 flex-column col-12 col-md-6 col-lg-4">
+                        <img src="images/thestand.jpg" alt="The Stand" style="width: 100%; height: auto;">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#theStand">
-                            "The Stand" Newspaper
-                        </button>
+                        <div class="stand-buttons d-flex">
+                            <a type="button" class="btn project-modal-button button" data-toggle="modal" data-target="#theStand" style="width: 50%;">
+                                "The Stand" Newspaper
+                            </a>
+                            <a class="btn project-modal-button button" href="https://mysouthsidestand.com/" target="_blank" role="button" style="width: 50%;">Website</a>
+                        </div>
                                 
                         <!-- Modal -->
                         <div class="modal fade" id="theStand" tabindex="-1" role="dialog" aria-labelledby="theStandTitle" aria-hidden="true">
@@ -252,145 +277,141 @@
                         </div>
                     </div>
 
-                    <div class="project-container flex-column col-12 col-md-6 col-lg-4">
-                        <img class="p-2" src="images/FoodCoop.jpg" alt="Food Cooperative" style="width: 100%; height: auto;">
+                    <div class="project-container px-3 pb-5 flex-column col-12 col-md-6 col-lg-4">
+                        <img src="images/" alt="Wireless" style="width: 100%; height: auto;">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModalCenter">
-                            Launch demo modal
-                        </button>
+                        <a type="button" class="btn project-modal-button button" data-toggle="modal" data-target="#wireless" style="width: 100%;">
+                            Wireless
+                        </a>
                                 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="wireless" tabindex="-1" role="dialog" aria-labelledby="wirelessTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                                <h5 class="modal-title" id="wirelessTitle">Wireless</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                ...
+                                <p class="text-left">The wireless project is designed to provide the South Side of Syracuse with wireless technology. Syracuse University has partnered with SCC, Syracuse Metro Net, National Grid and Verizon on this project. Funded through a Kauffman Foundation grant, wireless Internet devices are being placed on lampposts and roofs of local buildings along a 5-6 block stretch of S. Salina St. to make wireless connectivity possible for South Side residents. Local entrepreneurs will be provided with high quality wireless internet connectivity at a low cost. This project will be operational by the end of this year, 2013.</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
                             </div>
                             </div>
                         </div>
                         </div>
                     </div>
 
-                    <div class="project-container flex-column col-12 col-md-6 col-lg-4">
-                        <img class="p-2" src="images/FoodCoop.jpg" alt="Food Cooperative" style="width: 100%; height: auto;">
+                    <div class="project-container px-3 pb-5 flex-column col-12 col-md-6 col-lg-4">
+                        <img src="images/commTech.jpg" alt="Community Tech Workshops" style="width: 100%; height: auto;">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModalCenter">
-                            Launch demo modal
-                        </button>
+                        <a type="button" class="btn project-modal-button button" data-toggle="modal" data-target="#commTech" style="width: 100%;">
+                            Community Tech Workshops
+                        </a>
                                 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="commTech" tabindex="-1" role="dialog" aria-labelledby="commTechTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                                <h5 class="modal-title" id="commTechTitle">Community Tech Workshops</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                ...
+                                <p class="text-left">A SU School of Information Studies course, Technology as Public Good, prepare students on how to take a positive role in public technology initiatives. SU students provide South Side residents with the knowledge and skills to tap into the resources of the Internet via community workshops. The first community workshops took place in 2009 and provided information on how to use the Internet to gain information on health and wellness. This year the workshops will focus on community economic development and wireless technology business opportunities.</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
                             </div>
                             </div>
                         </div>
                         </div>
                     </div>
 
-                    <div class="project-container flex-column col-12 col-md-6 col-lg-4">
-                        <img class="p-2" src="images/FoodCoop.jpg" alt="Food Cooperative" style="width: 100%; height: auto;">
+                    <div class="project-container px-3 pb-5 flex-column col-12 col-md-6 col-lg-4">
+                        <img src="images/" alt="Digital Access Day" style="width: 100%; height: auto;">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModalCenter">
-                            Launch demo modal
-                        </button>
+                        <a type="button" class="btn project-modal-button button" data-toggle="modal" data-target="#digitalAccess" style="width: 100%;">
+                            Digital Access Day
+                        </a>
                                 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="digitalAccess" tabindex="-1" role="dialog" aria-labelledby="digitalAccessTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                                <h5 class="modal-title" id="digitalAccessTitle">Digital Access Day</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                ...
+                                <p class="text-left">Digital Access Day (D.A.D.) is an annual event that builds bridges across the digital divide for community members. Network Academy graduates and SU faculty and students present new and existing computer technologies to South Side residents through hands-on demonstrations. This year’s D.A.D. event focused on Robotics via the iCAN Robotics Program (a collaborative venture between Syracuse University and Mercy Works).
+                                Since 2006 the S.U. South Side Initiative Office, S.U. School of Information Studies and SCC has provided an annual computer technology demonstration on South Salina Street between Colvin Avenue and Brighton Avenue. Past DADs included hands on demonstration of wireless internet connectivity to 5th graders of the Martin Luther King School and a demonstration of point to point wireless video conferencing.</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
                             </div>
                             </div>
                         </div>
                         </div>
                     </div>
 
-                    <div class="project-container flex-column col-12 col-md-6 col-lg-4">
-                        <img class="p-2" src="images/FoodCoop.jpg" alt="Food Cooperative" style="width: 100%; height: auto;">
+                    <div class="project-container px-3 pb-5 flex-column col-12 col-md-6 col-lg-4">
+                        <img src="images/Art In Motion.JPG" alt="Art in Motion" style="width: 100%; height: auto;">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModalCenter">
-                            Launch demo modal
-                        </button>
+                        <a type="button" class="btn project-modal-button button" data-toggle="modal" data-target="#artMotion" style="width: 100%;">
+                            Art in Motion
+                        </a>
                                 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="artMotion" tabindex="-1" role="dialog" aria-labelledby="artMotionTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                                <h5 class="modal-title" id="artMotionTitle">Art in Motion</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                ...
+                                <p class="text-left">This project is a multi organizational collaboration between the SCC, Open Hand Theatre, Syracuse Stage, Imagining America and Syracuse University. The goal of this project is to create a process to facilitate a multi-generational, multi-cultural event designed to support, strengthen and unify neighborhoods through the arts. Participants (residents of four distinct Syracuse neighborhoods) will learn how to create giant puppets and will be afforded an opportunity to participate in theatrical performances/parades throughout this spring 2010 with the grand finale performance in Downtown Syracuse, September 2010.</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
                             </div>
                             </div>
                         </div>
                         </div>
                     </div>
 
-                    <div class="project-container flex-column col-12 col-md-6 col-lg-4">
-                        <img class="p-2" src="images/FoodCoop.jpg" alt="Food Cooperative" style="width: 100%; height: auto;">
+                    <div class="project-container px-3 pb-5 flex-column col-12 col-md-6 col-lg-4">
+                        <img src="images/NetworkingAcademy.jpg" alt="Networking Academy" style="width: 100%; height: auto;">
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#exampleModalCenter">
-                            Launch demo modal
-                        </button>
+                        <a type="button" class="btn project-modal-button button" data-toggle="modal" data-target="#networkingAcademy" style="width: 100%;">
+                            Networking Academy
+                        </a>
                                 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal fade" id="networkingAcademy" tabindex="-1" role="dialog" aria-labelledby="networkingAcademyTitle" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                                <h5 class="modal-title" id="networkingAcademyTitle">Networking Academy</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                ...
+                                <p class="text-left">This project is to provide access to structured hands-on learning and technical skills training leading to broad range of Information Technology certification and credentialing opportunities. Collaboration involved SCC, SU Southside Initiative Office, CNY Works, SU School of Information Studies, and SU Center for Business and Information Technology. Graduated (11) Southside Residents Spring 2009.</p>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
                             </div>
                             </div>
                         </div>
@@ -404,8 +425,8 @@
 
    
    
-    <footer class="pt-5">
-        <div class="footer d-flex justify-content-center align-items-center text-left py-2" style="background-color:dimgrey;color:white;">
+    <footer class="pt-4">
+        <div class="footer d-flex justify-content-center align-items-center text-left py-2" style="background-color:#979AAC;; color:white;">
             <img src="images/scc1logo3.jpg" class="mx-2" style="height: 50px; width: 50px; box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);">
             <span style="font-family: 'Noto Sans', sans-serif; font-size: .8rem;" class="px-2">© Copyright 2018, Southside Community Coalition. Syracuse, NY. All Rights Reserved </span>
         </div>

@@ -19,6 +19,38 @@ nav .header-link {
   font-size: 1rem;
 }
 
+.container {
+  /*Default padding is 15px*/
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*Target all column classes*/
+[class^=col-] {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 767px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 991px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 1199px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1350px;
+  }
+}
 .navbar {
   background-color: #C23053 !important;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
@@ -31,7 +63,7 @@ nav .header-link {
   background-color: #C23053;
 }
 .container .contact-info {
-  padding: 20px;
+  padding: 16px 20px;
 }
 .container .contact-info .content {
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
@@ -80,6 +112,29 @@ nav .header-link {
   .collapse a:hover {
     transform: translateX(12px);
     background-color: #C23053;
+  }
+}
+@media (max-width: 768px) {
+  .info {
+    border-bottom: 1px solid #dee2e6 !important;
+  }
+  .info .numbers {
+    border: none !important;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 991px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 900px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1100px;
   }
 }
 
