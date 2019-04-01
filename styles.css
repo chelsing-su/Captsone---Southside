@@ -25,9 +25,9 @@ nav a img{
 }
 
 .hero span{
-    font-size: 6vw;
-    color: #C23053;
-    font-weight: 700;
+    font-size: 5vw;
+    color: #FEF9E7;
+    font-weight: 600;
     font-style: oblique;
     text-align: center;
 }
@@ -87,7 +87,7 @@ nav a img{
     text-align: center;
     font-size: 6vw;
     padding: 20px;
-    color: #C23053;
+    color: #FEF9E7;
     font-weight: 700;
   }
     .nav-link{

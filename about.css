@@ -43,7 +43,7 @@ nav .header-link {
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 1199px;
+    max-width: 1150px;
   }
 }
 @media (min-width: 1200px) {
@@ -65,6 +65,7 @@ nav .header-link {
 .container .about {
   padding: 30px;
   background-image: url("images/about-bg-1.jpg");
+  background-size: cover;
 }
 .container .content {
   display: flex;

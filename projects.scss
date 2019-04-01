@@ -51,9 +51,24 @@
         }
     }
     .projects{
-        padding: 0px 20px 20px 20px;
-        .project-modal-button{
-        
+        .project-container{
+            img{
+                border: 2px $secondary solid;
+            }
+            .project-modal-button{
+                border: 2px $secondary solid;
+                border-radius: 0px !important;
+                font-weight: bolder;
+                font-size: 1.15rem;
+                font-family: $h2Font;
+                background-color: #EFF1F2;
+            }
+            .project-modal-button:hover{
+                background-color: lightgray;
+            }
+            .stand-site:hover{
+                background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+            }
         }
     }
 }
