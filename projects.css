@@ -27,8 +27,8 @@ nav .header-link {
 
 /*Target all column classes*/
 [class^=col-] {
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 @media (min-width: 576px) {
@@ -95,33 +95,45 @@ nav .header-link {
 }
 
 .container {
+  padding: 0px;
   background-color: #C23053;
 }
 .container .projects-overview {
-  padding: 20px 20px 0px 20px;
+  padding: 0px;
 }
 .container .projects-overview .overview-content h2 {
   font-family: "Nanum Gothic", sans-serif;
 }
-.container .projects {
-  padding: 20px;
+.container .projects .project-container {
+  background-color: #FEF9E7;
 }
 .container .projects .project-container img {
-  border: 2px #FEF9E7 solid;
+  border: 1px #000 solid;
+  border-bottom: none;
 }
 .container .projects .project-container .project-modal-button {
-  border: 2px #FEF9E7 solid;
+  border: 1px #000 solid;
   border-radius: 0px !important;
   font-weight: bolder;
-  font-size: 1.15rem;
-  font-family: "Noto Sans", sans-serif;
-  background-color: #EFF1F2;
+  font-size: 1.05rem;
+  font-family: "Nanum Gothic", sans-serif;
+  background-color: #A1BFE4;
+  background: linear-gradient(rgba(127, 168, 219, 0.5), rgba(0, 0, 0, 0.2));
+  color: #000;
 }
 .container .projects .project-container .project-modal-button:hover {
-  background-color: lightgray;
+  background-color: #A1BFE4;
+  color: #000;
+}
+.container .projects .project-container .stand-site {
+  border-left: none;
+}
+.container .projects .project-container .stand-site {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
 }
 .container .projects .project-container .stand-site:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+  color: white;
 }
 
 @media (min-width: 992px) {

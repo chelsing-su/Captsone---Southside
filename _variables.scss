@@ -37,8 +37,8 @@ nav{
 
 /*Target all column classes*/
 [class^="col-"] {
-	padding-left: 10px !important;
-	padding-right: 10px !important;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }
 
 @media (min-width: 576px) {
@@ -55,7 +55,7 @@ nav{
 
 @media (min-width: 992px) {
     .container{
-        max-width: 1150px;
+        max-width: 1199px;
     }
 }
 

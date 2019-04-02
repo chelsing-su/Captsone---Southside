@@ -10,10 +10,11 @@
     
 }
 .container{
+    padding: 0px;
     background-color: $secondary;
     .about{
         padding: 30px;
-        background-image: url("images/about-bg-1.jpg");
+        background-image: url("images/about-bg-2.jpg");
         background-size: cover;
         }
         .content{

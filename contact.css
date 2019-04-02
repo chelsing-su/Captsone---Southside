@@ -27,8 +27,8 @@ nav .header-link {
 
 /*Target all column classes*/
 [class^=col-] {
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 @media (min-width: 576px) {
@@ -43,7 +43,7 @@ nav .header-link {
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 1199px;
+    max-width: 1150px;
   }
 }
 @media (min-width: 1200px) {
@@ -60,6 +60,7 @@ nav .header-link {
 }
 
 .container {
+  padding: 0px;
   background-color: #C23053;
 }
 .container .contact-info {

@@ -27,8 +27,8 @@ nav .header-link {
 
 /*Target all column classes*/
 [class^=col-] {
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 @media (min-width: 576px) {
@@ -43,7 +43,7 @@ nav .header-link {
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 1150px;
+    max-width: 1199px;
   }
 }
 @media (min-width: 1200px) {
@@ -60,11 +60,12 @@ nav .header-link {
 }
 
 .container {
+  padding: 0px;
   background-color: #FEF9E7;
 }
 .container .about {
   padding: 30px;
-  background-image: url("images/about-bg-1.jpg");
+  background-image: url("images/about-bg-2.jpg");
   background-size: cover;
 }
 .container .content {
