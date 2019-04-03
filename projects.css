@@ -118,7 +118,7 @@ nav .header-link {
   font-size: 1.05rem;
   font-family: "Nanum Gothic", sans-serif;
   background-color: #A1BFE4;
-  background: linear-gradient(rgba(127, 168, 219, 0.5), rgba(0, 0, 0, 0.2));
+  background: linear-gradient(#8AAFDE, rgba(0, 0, 0, 0));
   color: #000;
 }
 .container .projects .project-container .project-modal-button:hover {
@@ -129,10 +129,10 @@ nav .header-link {
   border-left: none;
 }
 .container .projects .project-container .stand-site {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
 }
 .container .projects .project-container .stand-site:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3));
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
   color: white;
 }
 
