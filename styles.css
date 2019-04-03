@@ -84,6 +84,14 @@ nav a img{
     .img_link:hover{
       transform: scale(1.1)
     }
+
+    .paypal{
+      transition: .5s;
+    }
+
+    .paypal:hover{
+      transform: scale(1.2)
+    }
 }
 
 @media (max-width: 991px) {
