@@ -65,7 +65,7 @@ nav a img{
       bottom: 5px;
       width: 100%;
       height: 1px;
-      background-color: #D4B74A;
+      background-color: #C23053;
       transition: .3s;
       transform: scaleX(0);
       transform-origin: center center;
@@ -78,7 +78,7 @@ nav a img{
     .nav-link:hover {
       transform: scale(1.2);
       transition: .5s;
-      color: #D4B74A;
+      color: #C23053;
     }
 
     .img_link:hover{

@@ -88,7 +88,7 @@ nav .header-link {
     bottom: 5px;
     width: 100%;
     height: 1px;
-    background-color: #D4B74A;
+    background-color: #C23053;
     transition: 0.3s;
     transform: scaleX(0);
     transform-origin: center center;
@@ -112,7 +112,6 @@ nav .header-link {
 
   .collapse a:hover {
     transform: translateX(12px);
-    background-color: #C23053;
   }
 }
 @media (max-width: 768px) {
