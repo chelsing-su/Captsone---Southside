@@ -3,9 +3,13 @@
 
 .navbar{
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
-    background-color: $primary !important;
+    background-color: $navColor !important;
     .header-title{
         font-family: $navFont;
+    }
+    .header-link{
+        font-size: 1rem;
+        
     }
     
 }
@@ -14,7 +18,7 @@
     background-color: $secondary;
     .about{
         padding: 30px;
-        background-image: url("images/about-bg-2.jpg");
+        background-image: url("images/about-bg.jpg");
         background-size: cover;
         }
         .content{
@@ -28,6 +32,7 @@
             .about-tab{
                 font-size: 1.2rem;
                 font-style: italic;
+                font-family: $h4Font;
                 a{
                     color: #000;
                 }
@@ -37,6 +42,7 @@
                 width: 100%;
             }
             .tab-content{
+                #more {display: none;}
                 .tab-pane{
                     .director-title{
                         font-family: $h4Font;
@@ -73,7 +79,7 @@
           bottom: 5px;
           width: 100%;
           height: 1px;
-          background-color: #D4B74A;
+          background-color: $primary;
           transition: .3s;
           transform: scaleX(0);
           transform-origin: center center;
@@ -98,7 +104,6 @@
     
         .collapse a:hover{
             transform: translateX(12px);
-            background-color: $primary;
         }
     
     }

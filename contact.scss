@@ -1,7 +1,7 @@
 @import 'variables.scss';
 
 .navbar{
-    background-color: $primary !important;
+    background-color: $navColor !important;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
     .header-title{
         font-family: $navFont;
@@ -10,11 +10,13 @@
 
 .container{
     padding: 0px;
-    background-color: $primary;
+    background-color: $trimColor;
     .contact-info{
-        padding: 16px 20px;
+        padding: 12px 12px;
         .content{
-            
+            .numbers{
+                font-family: $h4Font;
+            }
             box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
             .header{
                 font-family: $h4Font;
@@ -44,7 +46,7 @@
       bottom: 5px;
       width: 100%;
       height: 1px;
-      background-color: #D4B74A;
+      background-color: $primary;
       transition: .3s;
       transform: scaleX(0);
       transform-origin: center center;
@@ -69,7 +71,6 @@
 
     .collapse a:hover{
         transform: translateX(12px);
-        background-color: $primary;
     }
     
 
@@ -86,20 +87,3 @@
 
 
 
-@media (min-width: 768px) {
-    .container{
-        max-width: 991px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container{
-        max-width: 900px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container{
-        max-width: 1100px;
-    }
-}

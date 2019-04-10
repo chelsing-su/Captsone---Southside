@@ -43,7 +43,7 @@ nav .header-link {
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 1150px;
+    max-width: 1199px;
   }
 }
 @media (min-width: 1200px) {
@@ -52,7 +52,7 @@ nav .header-link {
   }
 }
 .navbar {
-  background-color: #C23053 !important;
+  background-color: #D4B74A !important;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
 }
 .navbar .header-title {
@@ -61,13 +61,16 @@ nav .header-link {
 
 .container {
   padding: 0px;
-  background-color: #C23053;
+  background-color: #2A3250;
 }
 .container .contact-info {
-  padding: 16px 20px;
+  padding: 12px 12px;
 }
 .container .contact-info .content {
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+}
+.container .contact-info .content .numbers {
+  font-family: "Open Sans", sans-serif;
 }
 .container .contact-info .content .header {
   font-family: "Open Sans", sans-serif;
@@ -120,21 +123,6 @@ nav .header-link {
   }
   .info .numbers {
     border: none !important;
-  }
-}
-@media (min-width: 768px) {
-  .container {
-    max-width: 991px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    max-width: 900px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1100px;
   }
 }
 

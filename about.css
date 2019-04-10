@@ -53,10 +53,13 @@ nav .header-link {
 }
 .navbar {
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
-  background-color: #C23053 !important;
+  background-color: #D4B74A !important;
 }
 .navbar .header-title {
   font-family: "Nanum Gothic", sans-serif;
+}
+.navbar .header-link {
+  font-size: 1rem;
 }
 
 .container {
@@ -65,7 +68,7 @@ nav .header-link {
 }
 .container .about {
   padding: 30px;
-  background-image: url("images/about-bg-2.jpg");
+  background-image: url("images/about-bg.jpg");
   background-size: cover;
 }
 .container .content {
@@ -80,6 +83,7 @@ nav .header-link {
 .container .content .about-tab {
   font-size: 1.2rem;
   font-style: italic;
+  font-family: "Open Sans", sans-serif;
 }
 .container .content .about-tab a {
   color: #000;
@@ -87,6 +91,9 @@ nav .header-link {
 .container .content .about-tab-img {
   height: auto;
   width: 100%;
+}
+.container .content .tab-content #more {
+  display: none;
 }
 .container .content .tab-content .tab-pane .director-title {
   font-family: "Open Sans", sans-serif;
@@ -125,7 +132,7 @@ nav .header-link {
   .header-link:hover {
     transform: scale(1.2);
     transition: 0.5s;
-    color:#C23053;
+    color: #D4B74A;
   }
 }
 @media (max-width: 991px) {
