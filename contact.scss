@@ -13,6 +13,8 @@
     background-color: $trimColor;
     .contact-info{
         padding: 30px;
+        background-image: url("images/contact-bg.jpg");
+        background-size: cover;
         .content{
             .numbers i{
                 color: $trimColor;

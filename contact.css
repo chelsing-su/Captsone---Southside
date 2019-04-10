@@ -65,6 +65,8 @@ nav .header-link {
 }
 .container .contact-info {
   padding: 30px;
+  background-image: url("images/contact-bg.jpg");
+  background-size: cover;
 }
 .container .contact-info .content {
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
