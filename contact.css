@@ -64,13 +64,13 @@ nav .header-link {
   background-color: #2A3250;
 }
 .container .contact-info {
-  padding: 12px 12px;
+  padding: 30px;
 }
 .container .contact-info .content {
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
 }
-.container .contact-info .content .numbers {
-  font-family: "Open Sans", sans-serif;
+.container .contact-info .content .numbers i {
+  color: #2A3250;
 }
 .container .contact-info .content .header {
   font-family: "Open Sans", sans-serif;

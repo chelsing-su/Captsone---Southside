@@ -12,10 +12,10 @@
     padding: 0px;
     background-color: $trimColor;
     .contact-info{
-        padding: 12px 12px;
+        padding: 30px;
         .content{
-            .numbers{
-                font-family: $h4Font;
+            .numbers i{
+                color: $trimColor;
             }
             box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
             .header{
