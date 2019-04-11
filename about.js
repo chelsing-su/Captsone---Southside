@@ -1,13 +1,15 @@
-$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-    var hash = $(e.target).attr('href');
-    if (history.pushState) {
-      history.pushState(null, null, hash);
-    } else {
-      location.hash = hash;
-    }
-  });
+function myFunction() {
+    var breakPoint = document.getElementById("breakPoint");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
   
-  var hash = window.location.hash;
-  if (hash) {
-    $('.nav-link[href="' + hash + '"]').tab('show');
-  }
+    if (breakPoint.style.display === "none") {
+      breakPoint.style.display = "inline";
+      btnText.innerHTML = "Read more"; 
+      moreText.style.display = "none";
+    } else {
+      breakPoint.style.display = "none";
+      btnText.innerHTML = "Read less"; 
+      moreText.style.display = "inline";
+    }
+}
