@@ -18,7 +18,7 @@ nav a img {
 }
 
 .container .collab{
-  padding: 20px;
+  padding: 30px;
 }
 
 .container .content {
@@ -153,3 +153,43 @@ a:visited:hover{
 }
   /*# sourceMappingURL=styles.css.map */
   
+
+  .container {
+	/*Default padding is 15px*/
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*Target all column classes*/
+[class^="col-"] {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+[class^="row"] {
+    padding: 30px 35px !important;
+}
+
+@media (min-width: 576px) {
+    .container{
+        max-width: 767px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 991px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container{
+        max-width: 1199px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1350px;
+    }
+}
