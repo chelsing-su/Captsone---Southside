@@ -65,22 +65,21 @@
                 font-size: 1.05rem;
                 font-family: $navFont;
                 background-color: #A1BFE4;
-                background: linear-gradient(#8AAFDE, rgba(0, 0, 0, -0.1));
+                background: linear-gradient($navColor, rgba(0, 0, 0, -.5));
                 color: #000;
             }
             .project-modal-button:hover{
-                background-color: #A1BFE4;
+                background-color: $footerColor;
                 color: #000;
             }
             .stand-site{
                 border-left: none;
             }
             .stand-site{
-                background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+                background: linear-gradient($footerColor, rgba(0, 0, 0, -0.5));
             }
             .stand-site:hover{
-                background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
-                color: white;
+                background: linear-gradient($footerColor, $navColor);
             }
         }
     }

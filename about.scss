@@ -27,7 +27,7 @@
             box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
             h2{
                 text-align: center;
-                font-family: $h4Font;
+                font-family: $navFont;
             }
             .about-tab{
                 font-size: 1.2rem;
@@ -35,6 +35,7 @@
                 font-family: $h4Font;
                 a{
                     color: #000;
+                    font-family: $h4Font;
                 }
             }
             .about-tab-img{
@@ -44,6 +45,12 @@
             .tab-content{
                 #more {display: none;}
                 .tab-pane{
+                    h4{
+                        font-family: $h4Font;
+                    }
+                    p{
+                        font-family: $h4Font;
+                    }
                     .director-title{
                         font-family: $h4Font;
                         font-size: 1.25rem;

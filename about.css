@@ -78,7 +78,7 @@ nav .header-link {
 }
 .container .content h2 {
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 .container .content .about-tab {
   font-size: 1.2rem;
@@ -87,6 +87,7 @@ nav .header-link {
 }
 .container .content .about-tab a {
   color: #000;
+  font-family: "Open Sans", sans-serif;
 }
 .container .content .about-tab-img {
   height: auto;
@@ -94,6 +95,12 @@ nav .header-link {
 }
 .container .content .tab-content #more {
   display: none;
+}
+.container .content .tab-content .tab-pane h4 {
+  font-family: "Open Sans", sans-serif;
+}
+.container .content .tab-content .tab-pane p {
+  font-family: "Open Sans", sans-serif;
 }
 .container .content .tab-content .tab-pane .director-title {
   font-family: "Open Sans", sans-serif;

@@ -118,22 +118,21 @@ nav .header-link {
   font-size: 1.05rem;
   font-family: "Nanum Gothic", sans-serif;
   background-color: #A1BFE4;
-  background: linear-gradient(#8AAFDE, rgba(0, 0, 0, 0));
+  background: linear-gradient(#D7BD5A, rgba(0, 0, 0, 0));
   color: #000;
 }
 .container .projects .project-container .project-modal-button:hover {
-  background-color: #A1BFE4;
+  background-color: #979AAC;
   color: #000;
 }
 .container .projects .project-container .stand-site {
   border-left: none;
 }
 .container .projects .project-container .stand-site {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+  background: linear-gradient(#979AAC, rgba(0, 0, 0, 0));
 }
 .container .projects .project-container .stand-site:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3));
-  color: white;
+  background: linear-gradient(#979AAC, #D7BD5A);
 }
 
 @media (min-width: 992px) {

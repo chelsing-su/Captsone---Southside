@@ -17,23 +17,45 @@ nav a img{
 
 
 .about{
-    background-color: lightgray
+    background-color: #FEF9E7;
 }
 
 .welcome img{
     border-radius: 50%;
 }
 
+.welcome h4{
+    font-family: 'Open Sans', sans-serif;
+    color: #FEF9E7;
+}
+
+.welcome h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #FEF9E7;
+    letter-spacing: 2px;
+}
+
+.welcome-text{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+}
+
 .hero span{
-    font-size: 5vw;
+    font-size: 4vw;
     color: #FEF9E7;
     font-weight: 600;
     font-style: oblique;
     text-align: center;
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.7);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    border-radius: 10px 20px;
+    padding: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .hero{
     border: none;
+    
 }
 
 .img_link{
@@ -116,9 +138,7 @@ nav a img{
 
 }
 
-.about{
-  background-color:lightgray;
-}
+
 
 .welcome img{
   border-radius: 50%;
