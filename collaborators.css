@@ -29,6 +29,7 @@ nav a img {
 
 .collab-descr{
     font-family: 'Open Sans', sans-serif;
+    font-style: italic;
 }
 
 .container .content {
@@ -37,6 +38,9 @@ nav a img {
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
 }
 
+.carousel-inner{
+    border: 1px solid #3F4661;
+}
 
 .carousel-item a{
     color:#FEF9E7;
