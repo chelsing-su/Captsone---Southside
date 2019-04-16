@@ -117,7 +117,7 @@ nav .header-link {
   font-weight: bolder;
   font-size: 1.05rem;
   font-family: "Open Sans", sans-serif;
-  background-color: #A14D63;
+  background-color: #C23053;
   text-decoration-skip-ink: none;
   color: #FFF;
   letter-spacing: 1px;
@@ -133,7 +133,8 @@ nav .header-link {
   letter-spacing: 0px;
 }
 .container .projects .project-container .stand-site {
-  background: linear-gradient(rgba(0, 0, 0, 0), #979AAC);
+  background-color: #FEF9E7;
+  font-weight: bold;
 }
 .container .projects .project-container .stand-site:hover {
   background-color: #979AAC;

@@ -64,7 +64,7 @@
                 font-weight: bolder;
                 font-size: 1.05rem;
                 font-family: $h4Font;
-                background-color: #A14D63;
+                background-color: $primary;
                 
                 text-decoration-skip-ink: none;
                 color: #FFF;
@@ -81,7 +81,8 @@
                 letter-spacing: 0px;
             }
             .stand-site{
-                background: linear-gradient(rgba(0, 0, 0, -0.5), $footerColor);
+                background-color: $secondary;
+                font-weight: bold;
             }
             .stand-site:hover{
                 background-color: $footerColor;

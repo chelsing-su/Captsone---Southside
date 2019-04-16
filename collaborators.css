@@ -35,7 +35,7 @@ nav a img {
 
 .container .content {
   display: flex;
-  padding: 20px 50px;
+  padding: 20px 50px 40px 50px;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
 }
 
