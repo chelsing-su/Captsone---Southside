@@ -25,6 +25,7 @@ nav a img {
 }
 .collab h2{
     font-family: 'Nanum Gothic', sans-serif;
+    color: #3F4661;
 }
 
 .collab-descr{
@@ -34,7 +35,7 @@ nav a img {
 
 .container .content {
   display: flex;
-  padding: 20px;
+  padding: 20px 50px;
   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -51,7 +52,7 @@ a:hover {
 }
 
 a:visited:hover{
-  color: #d4b74a;
+  color: #E7D566;
 }
 
 
@@ -123,6 +124,14 @@ a:visited {
     .nav-link{
       margin-left:20px;
       font-family: 'Nanum Gothic', sans-serif;
+    }
+    .container .content {
+        display: flex;
+        padding: 20px;
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3);
+    }
+    .collab-descr{
+        font-size: .8rem;
     }
 
 }

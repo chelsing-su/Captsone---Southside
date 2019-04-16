@@ -63,23 +63,28 @@
                 border-radius: 0px !important;
                 font-weight: bolder;
                 font-size: 1.05rem;
-                font-family: $navFont;
-                background-color: #A1BFE4;
-                background: linear-gradient(rgba(0, 0, 0, -1), #AC6376);
-                color: #000;
+                font-family: $h4Font;
+                background-color: #A14D63;
+                
+                text-decoration-skip-ink: none;
+                color: #FFF;
+                letter-spacing: 1px;
+                font-weight: lighter;
             }
             .project-modal-button:hover{
-                background-color: $navColor;
+                background-color: $secondary;
                 color: #000;
             }
             .stand-site{
                 border-left: none;
+                text-decoration: none;
+                letter-spacing: 0px;
             }
             .stand-site{
                 background: linear-gradient(rgba(0, 0, 0, -0.5), $footerColor);
             }
             .stand-site:hover{
-                background: linear-gradient($footerColor, $navColor);
+                background-color: $footerColor;
             }
         }
     }
