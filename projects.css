@@ -52,8 +52,8 @@ nav .header-link {
   }
 }
 .navbar {
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
-  background-color: #E7D566 !important;
+  border-bottom: 1px solid #3F4661;
+  background-color: #EBDC81 !important;
 }
 .navbar .header-title {
   font-family: "Nanum Gothic", sans-serif;
