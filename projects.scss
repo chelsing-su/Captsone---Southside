@@ -65,11 +65,11 @@
                 font-size: 1.05rem;
                 font-family: $navFont;
                 background-color: #A1BFE4;
-                background: linear-gradient($navColor, rgba(0, 0, 0, -.5));
+                background: linear-gradient($originalColor, rgba(0, 0, 0, -.5));
                 color: #000;
             }
             .project-modal-button:hover{
-                background-color: $footerColor;
+                background-color: $navColor;
                 color: #000;
             }
             .stand-site{

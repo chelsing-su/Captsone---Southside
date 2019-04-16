@@ -53,7 +53,7 @@ nav .header-link {
 }
 .navbar {
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
-  background-color: #D7BD5A !important;
+  background-color: #E7D566 !important;
 }
 .navbar .header-title {
   font-family: "Nanum Gothic", sans-serif;
@@ -106,6 +106,9 @@ nav .header-link {
   font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
+}
+.container .content .tab-content .tab-pane span {
+  font-family: "Noto Sans", sans-serif;
 }
 .container .content .tab-content .committees-tab h4 {
   font-style: italic;

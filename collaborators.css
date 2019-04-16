@@ -14,11 +14,21 @@ nav a img {
 
 
 .container {
-  background-color: #C23053;
+  background-color: #FEF9E7;
+  background-image: url('images/collab-bg.jpg');
+  background-size: cover;
 }
 
 .container .collab{
   padding: 30px;
+
+}
+.collab h2{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.collab-descr{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container .content {
