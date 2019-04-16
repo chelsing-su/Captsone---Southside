@@ -79,6 +79,7 @@ nav .header-link {
 .container .content h2 {
   text-align: center;
   font-family: "Nanum Gothic", sans-serif;
+  color: #3F4661;
 }
 .container .content .about-tab {
   font-size: 1.2rem;

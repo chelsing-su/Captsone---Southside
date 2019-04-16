@@ -77,6 +77,7 @@ nav .header-link {
 .container .contact-info .content .header {
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  color: #3F4661;
 }
 
 @media (min-width: 992px) {
