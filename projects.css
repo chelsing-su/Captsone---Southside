@@ -121,7 +121,7 @@ nav .header-link {
   text-decoration-skip-ink: none;
   color: #FFF;
   letter-spacing: 1px;
-  font-weight: lighter;
+  font-weight: bold;
 }
 .container .projects .project-container .project-modal-button:hover {
   background-color: #FEF9E7;
@@ -138,6 +138,12 @@ nav .header-link {
 }
 .container .projects .project-container .stand-site:hover {
   background-color: #979AAC;
+}
+.container .projects .project-container .reservation-button {
+  background-color: #FEF9E7;
+  color: #3F4661;
+  border: 1px solid #3F4661;
+  font-family: "Open Sans", sans-serif;
 }
 
 @media (min-width: 992px) {

@@ -82,6 +82,16 @@ nav .header-link {
 .container .contact-info .content .email-message {
   font-family: "Noto Sans", sans-serif;
 }
+.container .contact-info .content .send-email {
+  background-color: #FEF9E7;
+  color: #3F4661;
+  border: 1px solid #3F4661;
+  font-family: "Open Sans", sans-serif;
+}
+.container .contact-info .content .send-email:hover {
+  background-color: #C23053;
+  color: #fff;
+}
 
 @media (min-width: 992px) {
   /*----------*/

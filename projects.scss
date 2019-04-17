@@ -69,7 +69,7 @@
                 text-decoration-skip-ink: none;
                 color: #FFF;
                 letter-spacing: 1px;
-                font-weight: lighter;
+                font-weight: bold;
             }
             .project-modal-button:hover{
                 background-color: $secondary;
@@ -86,6 +86,12 @@
             }
             .stand-site:hover{
                 background-color: $footerColor;
+            }
+            .reservation-button{
+                background-color: $secondary; 
+                color: $trimColor; 
+                border: 1px solid $trimColor;
+                font-family: $h4Font;
             }
         }
     }
