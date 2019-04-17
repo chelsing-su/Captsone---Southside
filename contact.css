@@ -52,7 +52,7 @@ nav .header-link {
   }
 }
 .navbar {
-  background-color: #E7D566 !important;
+  background-color: #EBDC81 !important;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
 }
 .navbar .header-title {
@@ -77,6 +77,20 @@ nav .header-link {
 .container .contact-info .content .header {
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  color: #3F4661;
+}
+.container .contact-info .content .email-message {
+  font-family: "Noto Sans", sans-serif;
+}
+.container .contact-info .content .send-email {
+  background-color: #FEF9E7;
+  color: #3F4661;
+  border: 1px solid #3F4661;
+  font-family: "Open Sans", sans-serif;
+}
+.container .contact-info .content .send-email:hover {
+  background-color: #C23053;
+  color: #fff;
 }
 
 @media (min-width: 992px) {

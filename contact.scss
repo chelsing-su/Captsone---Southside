@@ -23,6 +23,20 @@
             .header{
                 font-family: $h4Font;
                 text-align: center;
+                color: $trimColor;
+            }
+            .email-message{
+                font-family: $h2Font;
+            }
+            .send-email{
+                background-color: $secondary; 
+                color: $trimColor; 
+                border: 1px solid $trimColor;
+                font-family: $h4Font;
+            }
+            .send-email:hover{
+                background-color: $primary;
+                color: #fff;
             }
         }
     }

@@ -1,7 +1,7 @@
 @import 'variables';
 
 .navbar{
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid $trimColor;
     background-color: $navColor !important;
     .header-title{
         font-family: $navFont;
@@ -63,23 +63,35 @@
                 border-radius: 0px !important;
                 font-weight: bolder;
                 font-size: 1.05rem;
-                font-family: $navFont;
-                background-color: #A1BFE4;
-                background: linear-gradient(rgba(0, 0, 0, -1), #AC6376);
-                color: #000;
+                font-family: $h4Font;
+                background-color: $primary;
+                
+                text-decoration-skip-ink: none;
+                color: #FFF;
+                letter-spacing: 1px;
+                font-weight: bold;
             }
             .project-modal-button:hover{
-                background-color: $navColor;
+                background-color: $secondary;
                 color: #000;
             }
             .stand-site{
                 border-left: none;
+                text-decoration: none;
+                letter-spacing: 0px;
             }
             .stand-site{
-                background: linear-gradient(rgba(0, 0, 0, -0.5), $footerColor);
+                background-color: $secondary;
+                font-weight: bold;
             }
             .stand-site:hover{
-                background: linear-gradient($footerColor, $navColor);
+                background-color: $footerColor;
+            }
+            .reservation-button{
+                background-color: $secondary; 
+                color: $trimColor; 
+                border: 1px solid $trimColor;
+                font-family: $h4Font;
             }
         }
     }

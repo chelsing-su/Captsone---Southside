@@ -52,8 +52,8 @@ nav .header-link {
   }
 }
 .navbar {
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
-  background-color: #E7D566 !important;
+  border-bottom: 1px solid #3F4661;
+  background-color: #EBDC81 !important;
 }
 .navbar .header-title {
   font-family: "Nanum Gothic", sans-serif;
@@ -116,23 +116,34 @@ nav .header-link {
   border-radius: 0px !important;
   font-weight: bolder;
   font-size: 1.05rem;
-  font-family: "Nanum Gothic", sans-serif;
-  background-color: #A1BFE4;
-  background: linear-gradient(rgba(0, 0, 0, 0), #AC6376);
-  color: #000;
+  font-family: "Open Sans", sans-serif;
+  background-color: #C23053;
+  text-decoration-skip-ink: none;
+  color: #FFF;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 .container .projects .project-container .project-modal-button:hover {
-  background-color: #E7D566;
+  background-color: #FEF9E7;
   color: #000;
 }
 .container .projects .project-container .stand-site {
   border-left: none;
+  text-decoration: none;
+  letter-spacing: 0px;
 }
 .container .projects .project-container .stand-site {
-  background: linear-gradient(rgba(0, 0, 0, 0), #979AAC);
+  background-color: #FEF9E7;
+  font-weight: bold;
 }
 .container .projects .project-container .stand-site:hover {
-  background: linear-gradient(#979AAC, #E7D566);
+  background-color: #979AAC;
+}
+.container .projects .project-container .reservation-button {
+  background-color: #FEF9E7;
+  color: #3F4661;
+  border: 1px solid #3F4661;
+  font-family: "Open Sans", sans-serif;
 }
 
 @media (min-width: 992px) {
