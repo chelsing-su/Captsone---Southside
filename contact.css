@@ -79,6 +79,9 @@ nav .header-link {
   text-align: center;
   color: #3F4661;
 }
+.container .contact-info .content .email-message {
+  font-family: "Noto Sans", sans-serif;
+}
 
 @media (min-width: 992px) {
   /*----------*/
